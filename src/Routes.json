@@ -1,0 +1,21 @@
+{
+    "_settings":{
+        "hash_routing": true,
+        "production_url": "https://github.com/abharan2002/Movie-Search"
+    },
+    "home": {
+        "path": "/",
+        "page_title": "Home Page"
+    },
+    "about": {
+        "path": "/about",
+        "page_title": "About"
+    },
+    "movie_page":{
+        "path": "/movie/:id",
+        "path_without_params": "/movie/",
+        "params":{
+            "id": "id"
+        }
+    }
+}
